@@ -17,6 +17,6 @@ public :
         return true;
     };
     bool appliesToChannel(int midiChanel) {
-        return true 
+        return true;
     };
 };
