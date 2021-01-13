@@ -11,6 +11,7 @@
 #pragma once
 #include <JuceHeader.h>
 #include "SynthSound.h"
+#include "maximilian.h"
 using namespace juce;
 class SynthVoice : public SynthesiserVoice {
 public:

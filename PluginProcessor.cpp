@@ -139,6 +139,7 @@ bool SynthesizerDemoAudioProcessor::isBusesLayoutSupported (const BusesLayout& l
 void SynthesizerDemoAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     buffer.clear();
+    std::cout << "where is my duder" << std::endl;
     mysynth.renderNextBlock(buffer,midiMessages,0,buffer.getNumSamples());
 }
 
